@@ -1,0 +1,281 @@
+ /* navbar */
+ 
+ .navbar {
+     display: grid;
+     grid-template-areas: 'one two two three';
+ }
+ 
+ .navbar1 {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-left: 50px;
+ }
+ 
+ .navbar2 a:hover {
+     text-decoration: underline;
+ }
+ 
+ .navbar2 a,
+ .navbar3 a {
+     text-decoration: none;
+     color: black;
+     font-weight: bolder;
+     margin: 20px 20px;
+     font-size: 16px;
+ }
+ 
+ .navbar3 {
+     display: flex;
+     justify-content: center;
+     text-align: left;
+     margin-left: 50px;
+ }
+ 
+ .navbar3 button {
+     height: 45px;
+ }
+ 
+ .navbar3 button:hover {
+     background-color: rgb(49, 48, 48);
+ }
+ 
+ .navbar3 a:hover {
+     text-decoration: underline;
+ }
+ /* dropdown */
+ 
+ .rotate {
+     transform: rotate(90deg);
+     color: red;
+ }
+ 
+ .dropbtn {
+     background-color: #ffffff;
+     color: rgb(0, 0, 0);
+     font-weight: bolder;
+     padding: 20px 2px;
+     font-size: 16px;
+     border: none;
+     cursor: pointer;
+     height: 20px;
+ }
+ 
+ .dropbtn:hover {
+     text-decoration: underline;
+ }
+ 
+ .dropdown {
+     position: relative;
+     display: inline-block;
+ }
+ 
+ .dropdown-content {
+     /* display: inline-block; */
+     display: grid;
+     grid-template-areas: 'one two' 'three four' 'five five';
+     position: absolute;
+ }
+ 
+ .dropdownItems {
+     display: inline-block;
+     z-index: 1;
+     background-color: white;
+ }
+ 
+ .dropdown a:hover {
+     background-color: #ddd;
+ }
+ 
+ .show {
+     display: block;
+ }
+ /* animation */
+ 
+ .delay-7 {
+     animation-delay: .9s;
+ }
+ 
+ .animate {
+     animation-name: fadeIn;
+     animation-duration: 3s;
+ }
+ 
+ @keyframes fadeIn {
+     0% {
+         opacity: 0;
+         visibility: hidden;
+     }
+     100% {
+         transform: translate(0, -1.5rem);
+     }
+ }
+ 
+ .animation1 {
+     font-size: 4rem;
+     height: 152px;
+     width: 938.5px;
+     display: block;
+     margin: auto;
+     margin-top: 5rem;
+     text-align: center;
+     font-family: 'Ubuntu', sans-serif;
+     font-weight: bolder;
+ }
+ 
+ .animation2 {
+     display: block;
+     margin: auto;
+     text-align: center;
+     font-family: 'Ubuntu', sans-serif;
+     font-size: 24px;
+     margin: 7rem;
+     margin-top: 5rem;
+     font-weight: lighter;
+     color: grey;
+ }
+ /* middle section apps divs 3 */
+ 
+ .middle {
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-image: url('https://sketch-cdn.imgix.net/assets/pages/apps/page-background@2x.png?ixlib=rb-4.0.1&w=1920&q=95&fm=png&auto=format&s=58d2369c65ec133adfd30fe104c14107');
+     box-sizing: border-box;
+     padding-left: 32px;
+     padding-right: 32px;
+ }
+ 
+ .apps {
+     margin-left: 109.5px;
+     margin-right: 109.5px;
+     background-color: white;
+     opacity: 0.8;
+ }
+ /* apps div 01 */
+ 
+ .text01,
+ .text02 {
+     font-family: 'Ubuntu', sans-serif;
+ }
+ 
+ .img01,
+ .img02 {
+     height: 357.186px;
+     width: 584.5px;
+ }
+ 
+ .content01 {
+     display: flex;
+     border-bottom: 1px solid rgb(180, 174, 174);
+ }
+ 
+ .content01 h5,
+ .content02 h5,
+ .content03 h5 {
+     padding: 6 px;
+     background-color: rgb(202, 193, 193);
+     opacity: 0.7;
+     width: 100px;
+     margin-left: 20px;
+ }
+ 
+ .content01 h3,
+ .content02 h3 {
+     font-size: 32px;
+     padding: 2px 20px;
+     margin-bottom: 0px;
+ }
+ 
+ .content01 button,
+ .content02 button,
+ .navbar3 button {
+     background-color: black;
+     color: white;
+     padding: 11px;
+     width: auto;
+     font-weight: bold;
+     justify-content: center;
+     border: 1px solid transparent;
+     border-radius: 6px;
+     margin-left: 20px;
+ }
+ 
+ .content01 button:hover,
+ .content02 button:hover {
+     background-color: rgb(27, 26, 26);
+ }
+ 
+ .content01 a {
+     text-decoration: none;
+     color: black;
+     font-size: 15px;
+     font-weight: bold;
+ }
+ 
+ .content01 a:hover {
+     color: gray;
+ }
+ 
+ .content01 p,
+ .content02 p {
+     padding: 20px;
+ }
+ /* 
+apps div 02 */
+ 
+ .content02 button {
+     margin-bottom: 1rem;
+ }
+ 
+ .content02 {
+     display: grid;
+     grid-template-areas: 'one two';
+     border-bottom: 1px solid rgb(180, 174, 174);
+ }
+ /* apps div 3 */
+ 
+ .content03 {
+     display: grid;
+     grid-template-areas: 'one  two three';
+     font-family: 'Ubuntu', sans-serif;
+ }
+ 
+ .content03 h3 {
+     font-size: 25px;
+     padding: 2px 20px;
+     margin-bottom: 0px;
+ }
+ 
+ .content03 p {
+     font-weight: lighter;
+     margin: 2px 20px;
+ }
+ 
+ .content3Img {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 6rem;
+ }
+ 
+ .content03 button {
+     padding: 15px;
+     font-size: .9rem;
+     background-color: white;
+     font-weight: bolder;
+     border: 1px solid gray;
+     border-radius: 6px;
+     margin-bottom: 1rem;
+ }
+ 
+ .content03 button:hover {
+     background-color: rgb(231, 225, 225);
+ }
+ 
+ .content3div3 {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+ }
+ /* media query to make grid one one one after dec width */
