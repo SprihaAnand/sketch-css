@@ -1,4 +1,4 @@
-  /* navbar */
+   /* navbar */
  
  .navbar {
      display: grid;
@@ -61,14 +61,14 @@
  }
  
  .dropdown {
-     position: relative;
      display: inline-block;
  }
  
  .dropdown-content {
-     /* display: inline-block; */
+     margin-top: 15px;
      display: none;
      position: absolute;
+     margin-left: 0px;
  }
  
  .dropdownItems {
@@ -84,11 +84,7 @@
  .show {
      display: grid;
      grid-template-areas: 'one two' 'three four' 'five six';
-     /* position: absolute; */
-     width: 50%;
  }
- 
- #myDropdown {}
  /* animation */
  
  .delay-7 {
@@ -276,5 +272,41 @@ apps div 02 */
      justify-content: center;
      align-items: center;
      flex-direction: column;
+ }
+ /* footer */
+ 
+ .footer {
+     display: grid;
+     grid-template-areas: 'one two three four five';
+ }
+ 
+ .footer {
+     padding: 0px 40px;
+     border: 1px 0px;
+     font-family: 'Ubuntu', sans-serif;
+     font-size: .9rem;
+ }
+ 
+ .footer ul {
+     list-style: none;
+     font-weight: lighter;
+     font-size: .9rem;
+     color: rgb(100, 98, 98);
+ }
+ 
+ .footer ul li {
+     padding: 15px;
+ }
+ 
+ .footer ul li:hover {
+     color: black;
+     cursor: pointer;
+ }
+ 
+ .footer div {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin: 1rem;
  }
  /* media query to make grid one one one after dec width */
