@@ -45,11 +45,6 @@
  }
  /* dropdown */
  
- .rotate {
-     transform: rotate(90deg);
-     color: red;
- }
- 
  .dropbtn {
      background-color: #ffffff;
      color: rgb(0, 0, 0);
@@ -72,15 +67,14 @@
  
  .dropdown-content {
      /* display: inline-block; */
-     display: grid;
-     grid-template-areas: 'one two' 'three four' 'five five';
+     display: none;
      position: absolute;
  }
  
  .dropdownItems {
-     display: inline-block;
      z-index: 1;
      background-color: white;
+     padding: 0.5rem 3rem;
  }
  
  .dropdown a:hover {
@@ -88,8 +82,13 @@
  }
  
  .show {
-     display: block;
+     display: grid;
+     grid-template-areas: 'one two' 'three four' 'five six';
+     /* position: absolute; */
+     width: 50%;
  }
+ 
+ #myDropdown {}
  /* animation */
  
  .delay-7 {
