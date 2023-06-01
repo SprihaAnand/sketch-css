@@ -41,6 +41,15 @@ Start the server
   npm run start
 ```
 
+## Features
+
+- CSS animations
+- Single page web app
+- Slick mordern UI
+- Cross platformUser friendly design
+- Mordern color scheme
+- Responsive
+
 
 
 
