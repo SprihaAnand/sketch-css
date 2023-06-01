@@ -8,6 +8,12 @@ Overall, this front-end project successfully combines the power of HTML, CSS, Ja
 
 ## Screenshots
 
+<img width="958" alt="Screenshot 2023-06-01 233618" src="https://github.com/SprihaAnand/sketch-css/assets/97617046/eb4e556c-5ad8-4bda-ada7-975cd0ffda15">
+
+<img width="952" alt="Screenshot 2023-06-01 233659" src="https://github.com/SprihaAnand/sketch-css/assets/97617046/70efbd9b-9f5<img width="949" alt="Screenshot 2023-06-01 233753" src="https://github.com/SprihaAnand/sketch-css/assets/97617046/ff62d2b3-e95e-40cf-87a1-54b75b8b01ad">
+c-442d-9170-0d94369201fa">
+
+<img width="943" alt="Screenshot 2023-06-01 234033" src="https://github.com/SprihaAnand/sketch-css/assets/97617046/ad9cdf9f-044e-4512-833f-fb61f4a30a00">
 
 
 
