@@ -6,7 +6,7 @@ One of the standout features of this project is the creative use of transparency
 To enhance the user experience, the website incorporates captivating animations. Elements such as buttons, images, and text have been carefully animated using CSS and JavaScript, bringing them to life as users interact with the site. These animations provide a dynamic and engaging experience, keeping visitors intrigued and encouraging them to explore further.
 Overall, this front-end project successfully combines the power of HTML, CSS, JavaScript, and the Tailwind CSS framework to deliver a visually stunning website. With its sleek design, transparency effects, and captivating animations, the project has set a new standard for modern and engaging user interfaces.
 
-
+## Screenshots
 
 
 
