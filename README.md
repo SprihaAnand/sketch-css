@@ -15,6 +15,33 @@ Overall, this front-end project successfully combines the power of HTML, CSS, Ja
 <img width="943" alt="Screenshot 2023-06-01 234033" src="https://github.com/SprihaAnand/sketch-css/assets/97617046/ad9cdf9f-044e-4512-833f-fb61f4a30a00">
 
 
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://link-to-project
+```
+
+Go to the project directory
+
+```bash
+  cd my-project
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run start
+```
+
+
 
 
 
