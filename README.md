@@ -54,7 +54,10 @@ Start the server
 - Mordern color scheme
 - Responsive
 
-
+## Author
+- Spriha Anand (@SprihaAnand)
+## Feedback
+Share you feedback on sprihaanand@gmail.com
 
 
 
