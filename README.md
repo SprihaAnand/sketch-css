@@ -41,6 +41,10 @@ Start the server
   npm run start
 ```
 ## Demo
+
+[Screencast from 2023-06-02 22-06-49.webm](https://github.com/SprihaAnand/sketch-css/assets/97617046/c54b94e5-c3db-45f7-b8b9-67d42215b956)
+
+
 ## Features
 
 - CSS animations
