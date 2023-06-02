@@ -43,7 +43,11 @@ Start the server
 ## Demo
 
 [Screencast from 2023-06-02 22-06-49.webm](https://github.com/SprihaAnand/sketch-css/assets/97617046/c54b94e5-c3db-45f7-b8b9-67d42215b956)
-
+## What's special?
+- Animation: The website incorporates captivating animations using CSS and JavaScript, bringing elements such as buttons, images, and text to life. These animations provide a dynamic and engaging experience for users.
+- Modern UI: The website features a contemporary design that embraces modern aesthetics. It utilizes sleek and intuitive layouts, clean and minimalistic design elements, and a visually stunning interface.
+- Right Color Scheme: The project employs a carefully selected color scheme that complements the overall design and enhances the user experience. The colors chosen are cohesive and visually appealing, contributing to the modern and sophisticated look of the website.
+- User-Friendly Layout: The layout of the website is designed with the user in mind, prioritizing ease of navigation and intuitive interaction. The fixed navbar positioned at the top allows for quick access to different sections of the website, ensuring a seamless user experience. The content is organized in a logical and organized manner, making it easy for users to find the information they are looking for.
 
 ## Features
 
